@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.nandita.practiceapp1.MessageActivity">
+
+
+    <Button
+        style="@style/ButtonsStyle"
+        android:background="@drawable/button_background"
+        android:text="@string/read_messages"
+        android:id="@+id/button_showMess"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:onClick="onShowReadSMS"/>
+
+    <Button
+        style="@style/ButtonsStyle"
+        android:background="@drawable/button_background"
+        android:text="@string/compose_message"
+        android:id="@+id/button_compose"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:onClick="onComposeMessage"/>
+</RelativeLayout>

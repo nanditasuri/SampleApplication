@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar">Show Calendar,Set Reminder</string>
+    <string name="call">Make a Call</string>
+    <string name="browser">Open Bowser</string>
+    <string name="location">Show my Location, Take me Somewhere</string>
+    <string name="message">SEND-READ SMS Messages</string>
+    <string name="saveReminder">Save Reminder</string>
+    <string name="description">Description</string>
+    <string name="read_messages">show/READ my SMS messages</string>
+    <string name="compose_message">Compose SMS</string>
+    <string name="sms_txt">SMS Text</string>
+    <string name="message_send">Send Message</string>
+</resources>
